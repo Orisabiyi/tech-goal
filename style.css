@@ -136,4 +136,31 @@ a:hover {
   body {
     font-size: 1.4rem;
   }
+
+  header {
+    font-size: 1.6rem;
+    padding: 3rem;
+    width: 100%;
+  }
+
+  section {
+    padding: 3rem;
+  }
+
+  #profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .profile__imgs div:nth-of-type(1),
+  .profile__imgs div:nth-of-type(3) {
+    display: none;
+  }
+
+  .profile__imgs div:nth-of-type(2) {
+    transform: scale(1);
+  }
 }
