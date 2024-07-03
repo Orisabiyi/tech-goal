@@ -1,4 +1,6 @@
-const timeEl = document.getElementById("time");
+const hourEl = document.getElementById("hour");
+const minuteEl = document.getElementById("min");
+const secEl = document.getElementById("secs");
 const dayEl = document.getElementById("day");
 
 function setTime() {
@@ -14,7 +16,9 @@ function setTime() {
     });
     const curDay = dayFormatter.format(dateObj);
 
-    timeEl.textContent = `${curHour}:${curMinute}:${curSeconds}`;
+    hourEl.textContent = curHour;
+    minuteEl.textContent = curMinute;
+    secEl.textContent = curSeconds;
     dayEl.textContent = curDay;
   }, 1000);
 }
