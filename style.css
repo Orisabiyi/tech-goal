@@ -14,12 +14,14 @@ html {
 body {
   font-size: 1.6rem;
   font-family: sans-serif;
+
+  color: #fff;
+  background: #000;
 }
 
 header {
   padding: 2rem;
   text-align: center;
-  background-color: #f8f9fa;
 }
 
 section {
