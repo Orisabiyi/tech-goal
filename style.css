@@ -71,6 +71,8 @@ img {
 
 .goals__list {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .goals__list ul {
