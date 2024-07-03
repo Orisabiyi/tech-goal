@@ -69,20 +69,23 @@ img {
   border-radius: 1rem;
 }
 
-#goals {
+#goals,
+#current-time {
   display: flex;
   flex-direction: column;
   gap: 6rem;
 }
 
-#goals h2 {
+#goals h2,
+#current-time h2 {
   text-transform: uppercase;
   text-align: center;
 
   position: relative;
 }
 
-#goals h2::after {
+#goals h2::after,
+#current-time h2::after {
   position: absolute;
   bottom: -1.5rem;
   left: 0;
