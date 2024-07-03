@@ -69,6 +69,14 @@ img {
   border-radius: 1rem;
 }
 
+.goals__list {
+  display: flex;
+}
+
+.goals__list ul {
+  list-style: none;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 1.4rem;
