@@ -15,13 +15,28 @@ body {
   font-size: 1.6rem;
   font-family: sans-serif;
 
-  color: #fff;
+  color: #dedcdc;
   background: #000;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
 header {
   padding: 2rem;
   text-align: center;
+  text-transform: uppercase;
+}
+
+header span {
+  animation: fadeInOut 2s infinite;
 }
 
 section {
