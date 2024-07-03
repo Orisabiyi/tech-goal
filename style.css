@@ -132,15 +132,18 @@ a:hover {
   transition: all 2s;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   body {
     font-size: 1.4rem;
   }
 
   header {
-    font-size: 1.6rem;
     padding: 3rem;
     width: 100%;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
   }
 
   section {
@@ -162,5 +165,20 @@ a:hover {
 
   .profile__imgs div:nth-of-type(2) {
     transform: scale(1);
+  }
+
+  #goals h2,
+  #current-time h2 {
+    font-size: 1.8rem;
+  }
+
+  .goals__list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+  .goals__list ul {
+    gap: 1rem;
   }
 }
