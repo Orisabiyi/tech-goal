@@ -111,6 +111,27 @@ img {
   gap: 2rem;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  padding: 3rem;
+}
+
+a:link,
+a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  text-decoration: underline;
+  transition: all 2s;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 1.4rem;
