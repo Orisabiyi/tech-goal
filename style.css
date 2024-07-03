@@ -104,6 +104,15 @@ img {
   gap: 2rem;
 }
 
+#hour,
+#min,
+#secs {
+  display: block;
+  padding: 2rem;
+  border: 1px solid #fff;
+  border-radius: 0.2rem;
+}
+
 .goals__list {
   display: flex;
   align-items: center;
