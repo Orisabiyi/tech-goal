@@ -72,7 +72,7 @@ img {
 #goals {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 6rem;
 }
 
 #goals h2 {
@@ -101,6 +101,11 @@ img {
 
 .goals__list ul {
   list-style: none;
+
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 @media (max-width: 600px) {
