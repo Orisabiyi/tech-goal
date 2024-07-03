@@ -44,7 +44,7 @@ section {
   margin: 2rem;
 }
 
-.profile__img {
+.profile__imgs {
   display: flex;
   align-items: center;
   justify-content: center;
