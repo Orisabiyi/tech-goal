@@ -96,6 +96,14 @@ img {
   background: #fff;
 }
 
+#current-time div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 .goals__list {
   display: flex;
   align-items: center;
