@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* styles.css */
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
