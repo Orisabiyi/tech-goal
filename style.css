@@ -104,6 +104,12 @@ img {
   gap: 2rem;
 }
 
+#time {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 #hour,
 #min,
 #secs {
