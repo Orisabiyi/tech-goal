@@ -16,7 +16,7 @@ body {
   font-family: sans-serif;
 
   color: #dedcdc;
-  background: #000;
+  background: #020008;
 }
 
 @keyframes fadeInOut {
@@ -48,11 +48,26 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4rem;
+}
+
+.profile__imgs div {
+  flex: 1;
+  height: 40rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  transform: scale(0.8);
+  border: 2px solid #fff;
+}
+
+.profile__imgs div:nth-of-type(2) {
+  transform: scale(1.2);
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  width: 110%;
+  height: 110%;
+  border-radius: 1rem;
 }
 
 @media (max-width: 600px) {
