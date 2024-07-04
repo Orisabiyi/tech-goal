@@ -57,6 +57,10 @@ section {
   border-radius: 1rem;
   transform: scale(0.8);
   border: 2px solid #fff;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .profile__imgs div:nth-of-type(2) {
@@ -64,7 +68,7 @@ section {
 }
 
 img {
-  width: 110%;
+  width: auto;
   height: auto;
   border-radius: 1rem;
 }
