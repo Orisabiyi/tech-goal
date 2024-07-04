@@ -67,12 +67,6 @@ section {
   transform: scale(1.2);
 }
 
-img {
-  width: auto;
-  height: auto;
-  border-radius: 1rem;
-}
-
 #goals,
 #current-time {
   display: flex;
